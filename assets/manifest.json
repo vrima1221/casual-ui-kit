@@ -98,7 +98,7 @@
     },
     {
       "name": "fx_shine_strip",
-      "file": "svg/buttons/fx_shine_strip.svg",
+      "file": "svg/fx/fx_shine_strip.svg",
       "size": [
         64,
         128
