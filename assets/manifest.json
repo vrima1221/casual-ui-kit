@@ -1,0 +1,595 @@
+{
+  "assets": [
+    {
+      "name": "btn_rounded_normal",
+      "file": "svg/buttons/btn_rounded_normal.svg",
+      "size": [
+        128,
+        128
+      ],
+      "tintable": true,
+      "nineSlice": {
+        "left": 40,
+        "top": 40,
+        "right": 40,
+        "bottom": 48
+      }
+    },
+    {
+      "name": "btn_rounded_pressed",
+      "file": "svg/buttons/btn_rounded_pressed.svg",
+      "size": [
+        128,
+        128
+      ],
+      "tintable": true,
+      "nineSlice": {
+        "left": 40,
+        "top": 40,
+        "right": 40,
+        "bottom": 48
+      }
+    },
+    {
+      "name": "btn_rounded_disabled",
+      "file": "svg/buttons/btn_rounded_disabled.svg",
+      "size": [
+        128,
+        128
+      ],
+      "tintable": false,
+      "nineSlice": {
+        "left": 40,
+        "top": 40,
+        "right": 40,
+        "bottom": 48
+      },
+      "note": "Use untinted"
+    },
+    {
+      "name": "btn_pill_normal",
+      "file": "svg/buttons/btn_pill_normal.svg",
+      "size": [
+        160,
+        96
+      ],
+      "tintable": true,
+      "nineSlice": {
+        "left": 52,
+        "top": 0,
+        "right": 52,
+        "bottom": 0
+      },
+      "note": "Stretch width only"
+    },
+    {
+      "name": "btn_pill_pressed",
+      "file": "svg/buttons/btn_pill_pressed.svg",
+      "size": [
+        160,
+        96
+      ],
+      "tintable": true,
+      "nineSlice": {
+        "left": 52,
+        "top": 0,
+        "right": 52,
+        "bottom": 0
+      },
+      "note": "Stretch width only"
+    },
+    {
+      "name": "btn_circle_normal",
+      "file": "svg/buttons/btn_circle_normal.svg",
+      "size": [
+        96,
+        96
+      ],
+      "tintable": true
+    },
+    {
+      "name": "btn_circle_pressed",
+      "file": "svg/buttons/btn_circle_pressed.svg",
+      "size": [
+        96,
+        96
+      ],
+      "tintable": true
+    },
+    {
+      "name": "fx_shine_strip",
+      "file": "svg/buttons/fx_shine_strip.svg",
+      "size": [
+        64,
+        128
+      ],
+      "tintable": false,
+      "note": "Mask to button shape and sweep across"
+    },
+    {
+      "name": "panel_main",
+      "file": "svg/panels/panel_main.svg",
+      "size": [
+        128,
+        128
+      ],
+      "tintable": true,
+      "nineSlice": {
+        "left": 40,
+        "top": 40,
+        "right": 40,
+        "bottom": 44
+      }
+    },
+    {
+      "name": "panel_inset",
+      "file": "svg/panels/panel_inset.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "nineSlice": {
+        "left": 20,
+        "top": 20,
+        "right": 20,
+        "bottom": 20
+      }
+    },
+    {
+      "name": "panel_ribbon",
+      "file": "svg/panels/panel_ribbon.svg",
+      "size": [
+        256,
+        96
+      ],
+      "tintable": true,
+      "nineSlice": {
+        "left": 64,
+        "top": 0,
+        "right": 64,
+        "bottom": 0
+      },
+      "note": "Header banner; stretch width only"
+    },
+    {
+      "name": "btn_close",
+      "file": "svg/panels/btn_close.svg",
+      "size": [
+        72,
+        72
+      ],
+      "tintable": false
+    },
+    {
+      "name": "overlay_dim",
+      "file": "svg/panels/overlay_dim.svg",
+      "size": [
+        4,
+        4
+      ],
+      "tintable": true,
+      "note": "Tint black, alpha ~0.6"
+    },
+    {
+      "name": "bar_track",
+      "file": "svg/progress/bar_track.svg",
+      "size": [
+        128,
+        40
+      ],
+      "tintable": true,
+      "nineSlice": {
+        "left": 20,
+        "top": 0,
+        "right": 20,
+        "bottom": 0
+      },
+      "note": "Stretch width only"
+    },
+    {
+      "name": "bar_fill",
+      "file": "svg/progress/bar_fill.svg",
+      "size": [
+        128,
+        32
+      ],
+      "tintable": true,
+      "nineSlice": {
+        "left": 16,
+        "top": 0,
+        "right": 16,
+        "bottom": 0
+      },
+      "note": "Place inside track at (4,4); stretch width only"
+    },
+    {
+      "name": "bar_gloss",
+      "file": "svg/progress/bar_gloss.svg",
+      "size": [
+        128,
+        32
+      ],
+      "tintable": false,
+      "nineSlice": {
+        "left": 16,
+        "top": 0,
+        "right": 16,
+        "bottom": 0
+      }
+    },
+    {
+      "name": "currency_pill",
+      "file": "svg/progress/currency_pill.svg",
+      "size": [
+        160,
+        56
+      ],
+      "tintable": true,
+      "nineSlice": {
+        "left": 28,
+        "top": 0,
+        "right": 28,
+        "bottom": 0
+      },
+      "note": "Icon overlaps left end"
+    },
+    {
+      "name": "star_filled",
+      "file": "svg/progress/star_filled.svg",
+      "size": [
+        96,
+        96
+      ],
+      "tintable": false
+    },
+    {
+      "name": "star_empty",
+      "file": "svg/progress/star_empty.svg",
+      "size": [
+        96,
+        96
+      ],
+      "tintable": false
+    },
+    {
+      "name": "toggle_track",
+      "file": "svg/controls/toggle_track.svg",
+      "size": [
+        128,
+        64
+      ],
+      "tintable": true,
+      "nineSlice": {
+        "left": 32,
+        "top": 0,
+        "right": 32,
+        "bottom": 0
+      },
+      "note": "Tint grey=off, green=on"
+    },
+    {
+      "name": "toggle_knob",
+      "file": "svg/controls/toggle_knob.svg",
+      "size": [
+        56,
+        56
+      ],
+      "tintable": false
+    },
+    {
+      "name": "checkbox_box",
+      "file": "svg/controls/checkbox_box.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true
+    },
+    {
+      "name": "checkbox_mark",
+      "file": "svg/controls/checkbox_mark.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": false,
+      "note": "Layer over checkbox_box"
+    },
+    {
+      "name": "tab_active",
+      "file": "svg/controls/tab_active.svg",
+      "size": [
+        128,
+        96
+      ],
+      "tintable": true,
+      "nineSlice": {
+        "left": 32,
+        "top": 32,
+        "right": 32,
+        "bottom": 16
+      }
+    },
+    {
+      "name": "tab_inactive",
+      "file": "svg/controls/tab_inactive.svg",
+      "size": [
+        128,
+        96
+      ],
+      "tintable": true,
+      "nineSlice": {
+        "left": 32,
+        "top": 32,
+        "right": 32,
+        "bottom": 16
+      }
+    },
+    {
+      "name": "slider_track",
+      "file": "svg/controls/slider_track.svg",
+      "size": [
+        128,
+        24
+      ],
+      "tintable": true,
+      "nineSlice": {
+        "left": 12,
+        "top": 0,
+        "right": 12,
+        "bottom": 0
+      },
+      "note": "Use bar_fill for the filled part"
+    },
+    {
+      "name": "slider_handle",
+      "file": "svg/controls/slider_handle.svg",
+      "size": [
+        48,
+        48
+      ],
+      "tintable": true
+    },
+    {
+      "name": "icon_coin",
+      "file": "svg/icons/icon_coin.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "icon_gem",
+      "file": "svg/icons/icon_gem.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "icon_heart",
+      "file": "svg/icons/icon_heart.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "icon_energy",
+      "file": "svg/icons/icon_energy.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "icon_star",
+      "file": "svg/icons/icon_star.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "icon_settings",
+      "file": "svg/icons/icon_settings.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "icon_sound_on",
+      "file": "svg/icons/icon_sound_on.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "icon_sound_off",
+      "file": "svg/icons/icon_sound_off.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "icon_music_on",
+      "file": "svg/icons/icon_music_on.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "icon_music_off",
+      "file": "svg/icons/icon_music_off.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "icon_home",
+      "file": "svg/icons/icon_home.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "icon_play",
+      "file": "svg/icons/icon_play.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "icon_pause",
+      "file": "svg/icons/icon_pause.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "icon_lock",
+      "file": "svg/icons/icon_lock.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "icon_gift",
+      "file": "svg/icons/icon_gift.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "icon_plus",
+      "file": "svg/icons/icon_plus.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "icon_back",
+      "file": "svg/icons/icon_back.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "icon_check",
+      "file": "svg/icons/icon_check.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "icon_close",
+      "file": "svg/icons/icon_close.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "White; tint freely"
+    },
+    {
+      "name": "fx_glow",
+      "file": "svg/fx/fx_glow.svg",
+      "size": [
+        128,
+        128
+      ],
+      "tintable": true,
+      "note": "Use additive blend"
+    },
+    {
+      "name": "fx_sparkle",
+      "file": "svg/fx/fx_sparkle.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "note": "Particle; additive blend"
+    },
+    {
+      "name": "fx_coin",
+      "file": "svg/fx/fx_coin.svg",
+      "size": [
+        64,
+        64
+      ],
+      "tintable": false,
+      "note": "Fly-to-counter sprite"
+    },
+    {
+      "name": "fx_light_rays",
+      "file": "svg/fx/fx_light_rays.svg",
+      "size": [
+        256,
+        256
+      ],
+      "tintable": true,
+      "note": "Rotate slowly behind rewards; additive"
+    },
+    {
+      "name": "fx_noise",
+      "file": "png_source/fx_noise.png",
+      "size": [
+        256,
+        256
+      ],
+      "tintable": false,
+      "note": "Tileable grayscale noise for dissolve shader (raster only)"
+    }
+  ]
+}
